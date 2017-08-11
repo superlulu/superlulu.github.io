@@ -1,0 +1,52 @@
+div#loading{
+  position: fixed;
+  background-color: #f39896;
+  z-index: 100;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+}
+
+#loading-wrapper span#hold{
+  position: relative;
+  display: block;
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+body div#loading-wrapper{
+    display: inline-block;
+    position: relative;
+    top: 49%;
+    color: #373a4e;
+}
+
+.loader {
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  position: relative;
+  margin: 0 25px;
+  animation: loader 2s infinite ease;
+}
+
+@keyframes loader {
+  0% {
+    transform: scale(1);
+  } 
+  8% {
+    transform: scale(1.15);
+  }
+  16% {
+    transform: scale(1);
+  }
+  24% {
+    transform: scale(1.15);
+  }
+  45% {
+    transform: scale(1);
+  }
+}
